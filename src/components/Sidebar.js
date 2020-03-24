@@ -9,7 +9,8 @@ function Sidebar({ items, depthStep, depth }) {
     <div className="sidebar">
       <List disablePadding dense>
         {items.map((sidebarItem, index) => (
-          <SidebarItem
+          <SidebarItem 
+            style={{padding: 0 + 'em'}}
             key={`${sidebarItem.name}${index}`}
             depthStep={depthStep}
             depth={depth}

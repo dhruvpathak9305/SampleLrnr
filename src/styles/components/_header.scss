@@ -1,3 +1,6 @@
+body{
+  margin:0;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -155,6 +158,7 @@ padding:10px 0px 10px 20px;
 .title__options{
   width: 30%;
   background-color: rgb(35, 161, 46);
+  font-size: 2rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -164,8 +168,23 @@ padding:10px 0px 10px 20px;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .sidebar-subitem-text {
-  font-size: 1rem;
+  font-size: 2rem;
 }
+.MuiListItem-gutters {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.MuiListItem-dense {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.sidebar-subitem-container{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  border:1px solid black;
+  padding:10px 0px;
+  }
 .profileDropdown{
   width:200px;
   position: absolute;
